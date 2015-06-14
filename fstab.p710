@@ -1,0 +1,11 @@
+# mount point	fstype		device			[device2]		[length=]
+
+
+/boot			emmc		/dev/block/platform/msm_sdcc.3/by-num/p9
+/cache			ext4		/dev/block/platform/msm_sdcc.3/by-num/p16
+/data			ext4		/dev/block/platform/msm_sdcc.3/by-num/p20	length=-16384
+/misc			emmc		/dev/block/platform/msm_sdcc.3/by-num/p8
+/recovery		emmc		/dev/block/platform/msm_sdcc.3/by-num/p17
+/system			ext4		/dev/block/platform/msm_sdcc.3/by-num/p14
+/sd-ext			auto		/dev/block/mmcblk1p2  flags=display="Extended SDcard";storage;wipeingui
+/sdcard  		vfat  		/dev/block/mmcblk1p1  flags=display="Micro SDcard";storage;wipeingui;settingsstorage
